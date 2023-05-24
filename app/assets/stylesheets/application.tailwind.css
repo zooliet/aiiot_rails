@@ -1,0 +1,9 @@
+@import 'simpledotcss';
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+@import 'css/all';
+@import 'custom';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

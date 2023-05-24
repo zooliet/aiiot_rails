@@ -1,0 +1,17 @@
+<div class="flash flex flex-row justify-between items-center" data-controller='flash' data-flash-target='element'>
+  <div class='w-1/12 xxborder xxborder-solid'></div>
+
+  <div class='flex justify-center xxborder xxborder-solid'>
+    <span class='text-green-600'>
+      <%= msg %>
+    </span>
+
+  </div>
+
+  <div class='w-1/12 flex justify-center xxborder xxborder-solid'>
+    <span class='text-green-600 cursor-pointer' data-action="click->flash#close">
+      <i class="fa-regular fa-circle-xmark"></i>
+      <%# <i class="fa fa-times-circle"></i> %>
+    </span>    
+  </div>
+</div>
